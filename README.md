@@ -53,6 +53,7 @@
 
 ### So, I deleted all the client.google lines and it helped.
 ### You will also have a problem with Google Chrome Extensions if you have this lines in "hosts" file.
+##### (Extensions will not download)
 ### If you have this problem but you "hosts" file is empty (except big commentary), then I don't know how to fix this.
 
 
