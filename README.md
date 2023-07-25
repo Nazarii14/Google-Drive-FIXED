@@ -3,7 +3,7 @@
 #### In this repository I will explain you how you can fix GDrive.
 
 #### Go to C:\Windows\System32\drivers\etc in your file explorer. Now open "hosts" file as an administrator in your text editor.
-#### If your file looks like this:
+#### If you have a problem in this file, then it will look like this:
 ```
   # Copyright (c) 1993-2009 Microsoft Corp.
   #
@@ -36,6 +36,9 @@
 
   // My commentary
   // and then this "clients google" lines
+  // All the problem is in this lines
+  // I had all this lines from 0 to 9, but you can have only one or two
+
   127.0.0.1 clients.google.com
   127.0.0.1 clients0.google.com
   127.0.0.1 clients1.google.com
@@ -48,4 +51,8 @@
   127.0.0.1 clients9.google.com
 ```
 
-Then you have a problem.
+So, I deleted all the client.google lines and it helped.
+You will also have a problem with Google Chrome Extensions if you have this lines in "hosts" file
+If you have this problem but you "hosts" file is empty (except big commentary), then I don't know how to fix this.
+
+
