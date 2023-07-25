@@ -27,13 +27,15 @@
   #  127.0.0.1       localhost
   #  ::1             localhost
 
-  # some 0.0.0.0's depends on your software installed,
-  # for example if you have adobe premiere pro installed you will have this line:
+  // My commentary
+  // some 0.0.0.0's depends on your software installed,
+  // For instance, if you have Adobe Premiere Pro installed, you will probably have this line:
   0.0.0.0 genuine.adobe.com
   ...
   ...
 
-  #and then this "clients google" lines
+  // My commentary
+  // and then this "clients google" lines
   127.0.0.1 clients.google.com
   127.0.0.1 clients0.google.com
   127.0.0.1 clients1.google.com
