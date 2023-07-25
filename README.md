@@ -1,9 +1,11 @@
-# Google Drive problem FIXED
-#### I had a problem with my Google Drive, it took me so long to figure out the solution but in the end it is quite simple. In this repository I will explain you how fixed my GDrive.
+# Google Drive problem FIXED (Windows)
+#### I had a problem with my Google Drive, it took me so long to figure out the solution but in the end it is quite simple. 
+#### In this repository I will explain you how you can fix GDrive.
 
 #### Go to C:\Windows\System32\drivers\etc in your file explorer. Now open "hosts" file as an administrator in your text editor.
 #### If your file looks like this:
-```# Copyright (c) 1993-2009 Microsoft Corp.
+```
+  # Copyright (c) 1993-2009 Microsoft Corp.
   #
   # This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
   #
@@ -24,16 +26,14 @@
   # localhost name resolution is handled within DNS itself.
   #  127.0.0.1       localhost
   #  ::1             localhost
-  
+
+  #some 0.0.0.0's depends on your software installed,
+  # for example if you have adobe premiere pro installed you will have this line:
   0.0.0.0 genuine.adobe.com
-  0.0.0.0 assets.adobedtm.com
-  0.0.0.0 cc-api-data.adobe.io
-  0.0.0.0 ic.adobe.io
-  0.0.0.0 apps.corel.com
-  0.0.0.0 mc.corel.com
-  0.0.0.0 origin-mc.corel.com
-  0.0.0.0 iws.corel.com
-  
+  ...
+  ...
+
+  #and then this "clients google" lines
   127.0.0.1 clients.google.com
   127.0.0.1 clients0.google.com
   127.0.0.1 clients1.google.com
