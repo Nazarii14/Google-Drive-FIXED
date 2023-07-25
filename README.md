@@ -51,8 +51,8 @@
   127.0.0.1 clients9.google.com
 ```
 
-So, I deleted all the client.google lines and it helped.
-You will also have a problem with Google Chrome Extensions if you have this lines in "hosts" file
-If you have this problem but you "hosts" file is empty (except big commentary), then I don't know how to fix this.
+### So, I deleted all the client.google lines and it helped.
+### You will also have a problem with Google Chrome Extensions if you have this lines in "hosts" file.
+### If you have this problem but you "hosts" file is empty (except big commentary), then I don't know how to fix this.
 
 
