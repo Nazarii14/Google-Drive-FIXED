@@ -27,7 +27,7 @@
   #  127.0.0.1       localhost
   #  ::1             localhost
 
-  #some 0.0.0.0's depends on your software installed,
+  # some 0.0.0.0's depends on your software installed,
   # for example if you have adobe premiere pro installed you will have this line:
   0.0.0.0 genuine.adobe.com
   ...
